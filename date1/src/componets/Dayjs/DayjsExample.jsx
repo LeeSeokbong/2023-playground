@@ -17,7 +17,7 @@ export default function DayjsExample() {
   };
   const dayjsDate = dayjs();
   const newDayjstDate = dayjsDate.add(1, "week");
-  const cloneNewnewDayjsDatet = newDayjstDate.add(1, "week");
+  const cloneNewDayjsDate = newDayjstDate.add(1, "week");
 
   return (
     <div>
@@ -28,7 +28,7 @@ export default function DayjsExample() {
         <br />
         {newDayjstDate.format()}
         <br />
-        {cloneNewnewDayjsDatet.format()}
+        {cloneNewDayjsDate.format()}
       </div>
       <br />
       <div>Summer Time (New-york)</div>
